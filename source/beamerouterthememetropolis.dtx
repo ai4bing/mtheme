@@ -89,7 +89,7 @@
 \newcommand{\metropolis@outer@setdefaults}{
   \pgfkeys{/metropolis/outer/.cd,
     numbering=counter,
-    progressbar=none,
+    progressbar=foot,
   }
 }
 %    \end{macrocode}%
@@ -188,7 +188,7 @@
 %    \begin{macrocode}
 \newlength{\metropolis@progressinheadfoot}
 \newlength{\metropolis@progressinheadfoot@linewidth}
-\setlength{\metropolis@progressinheadfoot@linewidth}{0.4pt}
+\setlength{\metropolis@progressinheadfoot@linewidth}{1.5pt}
 \setbeamertemplate{progress bar in head/foot}{
   \nointerlineskip
   \setlength{\metropolis@progressinheadfoot}{%
@@ -219,7 +219,7 @@
     \pgfkeys{%
       /metropolis/outer/.cd,
       numbering=none,
-      progressbar=none}
+      progressbar=foot}
     }{}{}
 }
 %    \end{macrocode}
